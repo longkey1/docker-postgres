@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 
 repo := postgres
-tags := latest 14 13 12 12.10 11 10
+tags := latest 14 13 12 11 10
 
 define build_git_branch
 	git checkout master
