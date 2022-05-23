@@ -18,5 +18,5 @@ COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 
-# Confirm go version
-RUN go version
+# Confirm postgres version
+RUN psql --version
