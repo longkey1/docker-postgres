@@ -1,4 +1,4 @@
-FROM postgres:latest
+FROM postgres:10
 
 # Fix frontend not set error
 ARG DEBIAN_FRONTEND=noninteractive
